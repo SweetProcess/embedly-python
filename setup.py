@@ -42,7 +42,6 @@ setup(
     tests_require=tests_require,
     test_suite="embedly.tests",
     zip_safe=True,
-    use_2to3=True,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
