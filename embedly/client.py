@@ -8,7 +8,7 @@ from __future__ import absolute_import, unicode_literals
 import re
 import httplib2
 import json
-from urllib import quote, urlencode
+from urllib.parse import quote, urlencode
 
 from .models import Url
 

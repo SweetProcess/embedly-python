@@ -2,16 +2,8 @@ from __future__ import unicode_literals
 import re
 import sys
 import json
-
-try:  # pragma: no cover
-    import unittest2 as unittest  # Python 2.6   # pragma: no cover
-except ImportError:  # pragma: no cover
-    import unittest  # pragma: no cover
-
-try:  # pragma: no cover
-    from unittest import mock  # pragma: no cover
-except ImportError:  # Python < 3.3  # pragma: no cover
-    import mock  # pragma: no cover
+import unittest
+from unittest import mock  # pragma: no cover
 
 from embedly.client import Embedly
 from embedly.models import Url
